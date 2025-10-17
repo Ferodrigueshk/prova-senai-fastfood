@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro - Ninja Burguer</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <img src="../images/logo-.png" alt="Logo Ninja Burguer" class="logo" />
+      <nav>
+        <ul>
+          <li><a href="../index.html">Início</a></li>
+          <li><a href="cardapio.html">Cardápio</a></li>
+          <li><a href="cadastro.html" class="active">Cadastro</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="cadastro">
+        <h1>Crie sua conta no Ninja Burguer</h1>
+        <p>Cadastre-se e faça seus pedidos de forma rápida e prática!</p>
+
+        <form action="#" method="post" class="form-cadastro">
+          <div class="form-group">
+            <label for="nome">Nome Completo</label>
+            <input
+              type="text"
+              id="nome"
+              name="nome"
+              placeholder="Digite seu nome"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="exemplo@email.com"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="senha">Senha</label>
+            <input
+              type="password"
+              id="senha"
+              name="senha"
+              placeholder="Crie uma senha"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="telefone">Telefone</label>
+            <input
+              type="tel"
+              id="telefone"
+              name="telefone"
+              placeholder="(xx) xxxxx-xxxx"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="endereco">Endereço</label>
+            <input
+              type="text"
+              id="endereco"
+              name="endereco"
+              placeholder="Rua, número, bairro"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="preferencia">Preferência de sabor</label>
+            <select id="preferencia" name="preferencia" required>
+              <option value="">Selecione</option>
+              <option value="carne">Carne</option>
+              <option value="frango">Frango</option>
+              <option value="vegano">Vegano</option>
+              <option value="outros">Outros</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label>Método de pagamento favorito</label>
+            <div class="pagamento-opcoes">
+              <label
+                ><input type="radio" name="pagamento" value="pix" required />
+                Pix</label
+              >
+              <label
+                ><input type="radio" name="pagamento" value="cartao" />
+                Cartão</label
+              >
+              <label
+                ><input type="radio" name="pagamento" value="dinheiro" />
+                Dinheiro</label
+              >
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label
+              ><input type="checkbox" required /> Aceito os termos de uso</label
+            >
+          </div>
+
+          <button type="submit" class="btn">Cadastrar</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Ninja Burguer. Todos os direitos reservados.</p>
+    </footer>
+  </body>
+</html>

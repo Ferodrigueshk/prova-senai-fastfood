@@ -19,17 +19,29 @@ O objetivo foi aplicar conceitos de **UI (Interface do Usuário)** e **UX (Exper
 ##  Estrutura do Projeto
 
 📁 NinjaBurguer/
+
 ├── 📁 css/
+
 │ └── style.css
+
 ├── 📁 images/
+
 │ ├── logo-.png
+
 │ ├── Perfil2.jpg
+
 │ └── (outras imagens do site)
+
 ├── 📁 pages/
+
 │ ├── cardapio.html
+
 │ ├── cadastro.html
+
 │ └── sobre.html
+
 └── index.html
+
 
 
 ---

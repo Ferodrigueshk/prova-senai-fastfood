@@ -28,7 +28,7 @@ O objetivo foi aplicar conceitos de **UI (Interface do Usuário)** e **UX (Exper
 
 │ ├── logo-.png
 
-│ ├── Perfil2.jpg
+│ ├── Perfil.jpg
 
 │ └── (outras imagens do site)
 
